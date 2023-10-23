@@ -901,7 +901,5 @@
     20037471.205137093
   ],
   "tileset_type": "maptiler_package",
-  "tiles": [
-    "https://api.maptiler.com/tiles/v3/{z}/{x}/{y}.pbf?key=1ckMMoqiRZ5Kad4WeOjq"
-  ]
+  "tiles": ["http://192.168.102.29:8080/maps/osm/16/{x}/{y}.pbf"]
 }

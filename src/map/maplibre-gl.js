@@ -6,7 +6,7 @@ function MapLibreGl() {
   const map = useRef(null);
   const [lng] = useState(69.279737);
   const [lat] = useState(41.311158);
-  const [zoom] = useState(14);
+  const [zoom] = useState(11);
   useEffect(() => {
     const initializeMap = () => {
       map.current = new maplibregl.Map({
@@ -14,11 +14,12 @@ function MapLibreGl() {
         style: `http://localhost:3001/mapStyle/style.json`,
         center: [lng, lat],
         zoom: zoom,
-        pitch: 60,
+        pitch: 0,
         bearing: -17.6,
         antialias: true,
       });
     };
+
 
     if (!map.current) {
       initializeMap();
