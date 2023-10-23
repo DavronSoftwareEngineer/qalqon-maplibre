@@ -4,7 +4,7 @@
   "name": "Streets Dark",
   "sources": {
     "maptiler_planet": {
-      "url": "http://localhost:3001/mapStyle/tiles.json",
+      "url": "http://localhost:3000/mapStyle/tiles.json",
       "type": "vector"
     },
     "maptiler_attribution": {
@@ -3072,7 +3072,7 @@
     }
   ],
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=1ckMMoqiRZ5Kad4WeOjq",
-  "sprite": "http://localhost:3001/mapStyle/sprites/spriteIcon",
+  "sprite": "http://localhost:3000/mapStyle/sprites/spriteIcon",
   "bearing": 0,
   "pitch": 0,
   "center": [0, 0],

@@ -11,7 +11,7 @@ function MapLibreGl() {
     const initializeMap = () => {
       map.current = new maplibregl.Map({
         container: mapContainer.current,
-        style: `http://localhost:3001/mapStyle/style.json`,
+        style: `http://localhost:3000/mapStyle/style.json`,
         center: [lng, lat],
         zoom: zoom,
         pitch: 60,
@@ -25,7 +25,6 @@ function MapLibreGl() {
     }
 
     map.current.on("load", () => {
-      
       map.current?.on("mouseenter", "3d-buildings", (e) => {
         map.current.getCanvas().style.cursor = "pointer";
         var feature = e.features[0];
