@@ -901,5 +901,5 @@
     20037471.205137093
   ],
   "tileset_type": "maptiler_package",
-  "tiles": ["http://192.168.102.29:8080/maps/osm/16/{x}/{y}.pbf"]
+  "tiles": ["http://192.168.102.29:8080/maps/osm/{z}/{x}/{y}.pbf"]
 }
