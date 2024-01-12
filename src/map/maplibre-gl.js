@@ -11,7 +11,7 @@ function MapLibreGl() {
     const initializeMap = () => {
       map.current = new maplibregl.Map({
         container: mapContainer.current,
-        style: `http://localhost:3001/mapStyle/style.json`,
+        style: `https://api.maptiler.com/maps/634bdb88-532d-49d2-955b-777f4a114ec6/style.json?key=1ckMMoqiRZ5Kad4WeOjq`,
         center: [lng, lat],
         zoom: zoom,
         pitch: 0,
